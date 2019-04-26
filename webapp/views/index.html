@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block title %} 首页 {% endblock %}
+
+{% block style %}
+{% parent %}
+{% endblock %}
+
+{% block content %}
+<div>我是首页</div>
+<div>{{res}}</div>
+<a href="/detail">进入详情</a>
+{% endblock %}
+
+{% block scripts %}
+{% parent %}
+{% endblock %}
